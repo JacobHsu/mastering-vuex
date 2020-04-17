@@ -60,9 +60,9 @@ export default new Vuex.Store({
         })
     },
     fetchEvent({ commit, getters }, id) {
-      var event = getters.getEventById(id)
+      var event = getters.getEventById(id) // access our getters try to find this event
 
-      if (event) {
+      if (event) { //saving an api call , if we found it, set it
         commit('SET_EVENT', event)
       } else {
         EventService.getEvent(id)

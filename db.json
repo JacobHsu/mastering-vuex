@@ -71,6 +71,42 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 4354630,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "working",
+      "description": "",
+      "location": "",
+      "date": "Dec 2 2020",
+      "time": "10:00",
+      "attendees": []
+    },
+    {
+      "id": 5367356,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "addHouse",
+      "description": "test",
+      "location": "taiwan",
+      "date": "2020-04-17T02:23:00.000Z",
+      "time": "10:00",
+      "attendees": []
     }
   ]
 }

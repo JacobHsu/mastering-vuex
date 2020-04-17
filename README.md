@@ -3,6 +3,8 @@
 [Mastering Vuex](https://www.vuemastery.com/courses/mastering-vuex)  
 [lesson11-vuex-start](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson11-vuex-start) Starting code
 
+`$ json-server --watch db.json`
+
 ## Following along?
 
 We encourage you to follow the course on Vue Mastery, and code along with us. This course has tags representing the start and finish of each level, just in case you get stuck. Here's the start and ending code of each lesson, if you'd like to download them.

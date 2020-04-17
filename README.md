@@ -3,7 +3,13 @@
 [Mastering Vuex](https://www.vuemastery.com/courses/mastering-vuex)  
 [lesson11-vuex-start](https://github.com/Code-Pop/real-world-vue/releases/tag/lesson11-vuex-start) Starting code
 
+## Usage
+
 `$ json-server --watch db.json`
+
+## vuex
+
+![alt EventList](https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1578370807780_1.jpg?alt=media&token=bb422eb3-ded9-4f90-93af-c383eeccf8c4 "Vuex")
 
 ## Following along?
 

@@ -1,9 +1,7 @@
 <template>
   <div>
-    <h1>Create an Event, {{ user.name }}</h1>
-    <p>This event was created by {{ user.name }}</p>
     <p>there are {{ catLength }} categories</p>
-    <p>{{ getEventById(2) }}</p>
+
     <form @submit.prevent="createEvent">
       <label>Select a category</label>
       <select v-model="event.category">
@@ -59,7 +57,7 @@
 </template>
 
 <script>
-import { mapState, mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 import Datepicker from 'vuejs-datepicker'
 // we can name our mapState, or not
 export default {
@@ -81,8 +79,7 @@ export default {
     // localComputed() {
     //   return something
     // },
-    ...mapGetters(['getEventById', 'catLength']),
-    ...mapState(['user', 'categories'])
+    ...mapGetters(['catLength'])
   },
   methods: {
     createEvent() {
